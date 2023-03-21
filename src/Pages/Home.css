@@ -1,0 +1,46 @@
+.slick-list {
+  margin: 0 -5px;
+}
+.slick-slide > div {
+  padding: 0 5px;
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-prev {
+  left: 100px;
+}
+.slick-next {
+  right: 100px;
+}
+
+.card {
+  transition: all ease;
+  z-index: 5;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 0px rgb(255, 255, 255, 60%));
+}
+
+.image {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: calc(150px * 1.5);
+  height: calc(150px * 1.5);
+  background: #dbdbdb;
+  overflow: hidden;
+}
+
+/* #hero {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+} */
+
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 4px 0;
+  font-weight: 600;
+}

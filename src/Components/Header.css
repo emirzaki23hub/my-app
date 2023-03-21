@@ -1,0 +1,108 @@
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.bg-img {
+  background-image: linear-gradient(
+      to right,
+      rgba(3, 37, 65, 0.8) 0%,
+      rgba(3, 37, 65, 0) 100%
+    ),
+    url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg");
+}
+
+.new_index {
+  background-image: linear-gradient(
+      to right,
+      rgba(3, 37, 65, 0.8) 0%,
+      rgba(3, 37, 65, 0) 100%
+    ),
+    url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg");
+  min-height: 300px;
+  height: calc(100vh / 2.5);
+  max-height: 360px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.inner_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.column_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.content_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.media {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin-top: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.parent {
+  max-width: 550px;
+}
+
+.input {
+  width: 100%;
+  height: 46px;
+  line-height: 46px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  outline: none;
+  border-radius: 30px;
+  padding: 10px 32px 10px 20px;
+}
+
+.input_button {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 46px;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  right: -1px;
+  color: #000;
+}
+
+nav a.active {
+  color: #fff;
+  text-decoration: underline;
+}
